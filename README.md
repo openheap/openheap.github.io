@@ -1,4 +1,4 @@
-OpenHeap@Uplusware
+OpenHeap
 ==================
 
 http://openheap.github.io
