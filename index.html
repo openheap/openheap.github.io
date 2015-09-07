@@ -4,26 +4,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>uplusware by openheap</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>uplusware</h1>
         <p>openheap</p>
-        <p class="view"><a href="https://github.com/openheap">View the Project on GitHub <small>openheap</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/openheap/openheap.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/openheap" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <p><img src="http://openheap.github.io/images/openheap.png" alt="UplusFtp"></p>
 
@@ -71,7 +78,7 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </ul>
 
 <h2>
-<a id="binary" class="anchor" href="#binary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binary</h2>
+<a id="erisemail-binary" class="anchor" href="#erisemail-binary" aria-hidden="true"><span class="octicon octicon-link"></span></a>eRisemail Binary</h2>
 
 <ul>
 <li>The Lastest version: v1.6.07
@@ -84,14 +91,14 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </ul>
 
 <h2>
-<a id="source-code" class="anchor" href="#source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
+<a id="erisemail-source-code" class="anchor" href="#erisemail-source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>eRisemail Source Code</h2>
 
 <ul>
 <li><a href="https://github.com/openheap/erisemail">https://github.com/openheap/erisemail</a></li>
 </ul>
 
 <h2>
-<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+<a id="erisemail-install" class="anchor" href="#erisemail-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>eRisemail Install</h2>
 
 <ul>
 <li>Run release.sh to generate the installation files package</li>
@@ -116,7 +123,7 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </ul>
 
 <h2>
-<a id="binary-1" class="anchor" href="#binary-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binary</h2>
+<a id="uplusftp-binary" class="anchor" href="#uplusftp-binary" aria-hidden="true"><span class="octicon octicon-link"></span></a>UplusFtp Binary.</h2>
 
 <ul>
 <li>The lastest Version: 1.7.3.3
@@ -129,7 +136,7 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </ul>
 
 <h2>
-<a id="run-as-minimal" class="anchor" href="#run-as-minimal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run as minimal</h2>
+<a id="run-uplusftp-as-minimal" class="anchor" href="#run-uplusftp-as-minimal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run UplusFtp as minimal</h2>
 
 <ul>
 <li>Use the following VBScript code</li>
@@ -155,14 +162,14 @@ WshShell.Run FTP&amp;"\ftpadmingui.exe", 0
 </ul>
 
 <h2>
-<a id="source-code-1" class="anchor" href="#source-code-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
+<a id="uplusftp-source-code" class="anchor" href="#uplusftp-source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>UplusFtp Source Code</h2>
 
 <ul>
 <li><a href="https://github.com/openheap/niuhttpd">https://github.com/openheap/niuhttpd</a></li>
 </ul>
 
 <h2>
-<a id="install-1" class="anchor" href="#install-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install.</h2>
+<a id="uplusftp-install" class="anchor" href="#uplusftp-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>UplusFtp Install</h2>
 
 <ul>
 <li>Run release.sh to generate the installation files package</li>
@@ -198,7 +205,7 @@ WshShell.Run FTP&amp;"\ftpadmingui.exe", 0
 </ul>
 
 <h2>
-<a id="source-code-2" class="anchor" href="#source-code-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
+<a id="pmailsvr-source-code" class="anchor" href="#pmailsvr-source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>pmailsvr Source Code</h2>
 
 <ul>
 <li><a href="https://github.com/openheap/pmailsvr">https://github.com/openheap/pmailsvr</a></li>
@@ -212,17 +219,17 @@ WshShell.Run FTP&amp;"\ftpadmingui.exe", 0
 </ul>
 
 <h2>
-<a id="launch" class="anchor" href="#launch" aria-hidden="true"><span class="octicon octicon-link"></span></a>Launch</h2>
+<a id="launch-pmailsvr" class="anchor" href="#launch-pmailsvr" aria-hidden="true"><span class="octicon octicon-link"></span></a>Launch pmailsvr</h2>
 
 <ul>
 <li>Way I: modify launch.sh and ./launch.sh</li>
 <li>Way II: python pmail.py</li>
 </ul>
       </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
