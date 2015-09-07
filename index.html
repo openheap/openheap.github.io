@@ -130,9 +130,11 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 <h2>
 <a id="run-as-minimal" class="anchor" href="#run-as-minimal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run as minimal</h2>
 
-<p><code>Set WshShell = WScript.CreateObject("WScript.Shell")
+<p><code>
+Set WshShell = WScript.CreateObject("WScript.Shell")
 FTP_HOME = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
-WshShell.Run FTP_HOME&amp;"\ftpadmingui.exe", 0</code></p>
+WshShell.Run FTP_HOME&amp;"\ftpadmingui.exe", 0
+</code></p>
 
 <hr>
 
