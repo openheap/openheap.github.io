@@ -86,15 +86,18 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 <a id="source-code" class="anchor" href="#source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
 
 <ul>
-<li>
-<a href="https://github.com/openheap/erisemail">https://github.com/openheap/erisemail</a>
+<li><a href="https://github.com/openheap/erisemail">https://github.com/openheap/erisemail</a></li>
+</ul>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <ul>
 <li>Run release.sh to generate the installation files package</li>
 <li>run intsall.sh in installation package</li>
+<li>configure /etc/erisemail/erisemail.conf</li>
+<li>/etc/init.d/eriseutil --install</li>
 <li>/etc/init.d/erisemail start</li>
-</ul>
-</li>
 </ul>
 
 <hr>
@@ -124,12 +127,19 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </li>
 </ul>
 
+<h2>
+<a id="run-as-minimal" class="anchor" href="#run-as-minimal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run as minimal</h2>
+
+<p><code>Set WshShell = WScript.CreateObject("WScript.Shell")
+FTP_HOME = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
+WshShell.Run FTP_HOME&amp;"\ftpadmingui.exe", 0</code></p>
+
 <hr>
 
 <p><img src="http://openheap.github.io/images/niuhttpd.png" alt="UplusFtp"></p>
 
 <h1>
-<a id="niuhttpd-web-server" class="anchor" href="#niuhttpd-web-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Niuhttpd Web Server</h1>
+<a id="niuhttpd-web-server" class="anchor" href="#niuhttpd-web-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>NIUHTTPD Web Server</h1>
 
 <ul>
 <li>HTTP/HTTPS Server and C++ web service framework</li>
@@ -141,18 +151,33 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 <a id="source-code-1" class="anchor" href="#source-code-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
 
 <ul>
-<li>
-<a href="https://github.com/openheap/niuhttpd">https://github.com/openheap/niuhttpd</a>
+<li><a href="https://github.com/openheap/niuhttpd">https://github.com/openheap/niuhttpd</a></li>
+</ul>
+
+<h2>
+<a id="installation-1" class="anchor" href="#installation-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <ul>
 <li>Run release.sh to generate the installation files package</li>
 <li>run intsall.sh in installation package</li>
-<li>cd api and make install (it's for API code sample)</li>
-<li>cd cgi and make install (it's for CGI code sample)</li>
-<li>cd ws and make install (it's for WebSocket code sample)</li>
+<li>configure /etc/niuhttpd/niuhttpd.conf</li>
 <li>/etc/init.d/niuhttpd start</li>
 </ul>
-</li>
+
+<h2>
+<a id="code-sample" class="anchor" href="#code-sample" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code sample</h2>
+
+<ul>
+<li>cd api and make install (it's for API code sample, including a MySQL acesss sample)</li>
+<li>cd cgi and make install (it's for CGI code sample)</li>
+<li>cd ws and make install (it's for WebSocket code sample)</li>
+</ul>
+
+<h2>
+<a id="about-niu" class="anchor" href="#about-niu" aria-hidden="true"><span class="octicon octicon-link"></span></a>About NIU</h2>
+
+<ul>
+<li>NIU means 钮(niǔ).</li>
 </ul>
       </section>
       <footer>
