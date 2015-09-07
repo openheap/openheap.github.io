@@ -131,15 +131,16 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 <a id="run-as-minimal" class="anchor" href="#run-as-minimal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run as minimal</h2>
 
 <p><code>Set WshShell = WScript.CreateObject("WScript.Shell")</code>
-<code>FTP_HOME = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path</code>
-<code>WshShell.Run FTP_HOME&amp;"\ftpadmingui.exe", 0</code></p>
+FSO = CreateObject("Scripting.FileSystemObject")
+FTP = FSO.GetFile(Wscript.ScriptFullName).ParentFolder.Path<code>
+WshShell.Run FTP&amp;"\ftpadmingui.exe", 0</code></p>
 
 <hr>
 
 <p><img src="http://openheap.github.io/images/niuhttpd.png" alt="UplusFtp"></p>
 
 <h1>
-<a id="niuhttpd-web-server" class="anchor" href="#niuhttpd-web-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>NIUHTTPD Web Server</h1>
+<a id="niuhttpd-server" class="anchor" href="#niuhttpd-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Niuhttpd Server</h1>
 
 <ul>
 <li>HTTP/HTTPS Server and C++ web service framework</li>
