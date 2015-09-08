@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 body {
   padding:10px 50px 0 0;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"MS YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
 	background-color: #FBFAF7;
@@ -320,7 +320,7 @@ a.buttons:hover {
 
 section {
   width:650px;
-  float:right;
+  float:center;
   padding-bottom:50px;
 }
 
