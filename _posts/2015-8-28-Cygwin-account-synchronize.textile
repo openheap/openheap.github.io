@@ -1,0 +1,12 @@
+---
+layout: post
+title: Cygwin account synchronize
+---
+
+h1. {{ page.title }}
+
+p(meta). 28 Aug 2015 - Beijing, China
+
+mkpasswd -l -g > /etc/passwd
+mkpasswd -d -u `whoami` >> /etc/passwd
+mkgroup  -l -u > /etc/group
