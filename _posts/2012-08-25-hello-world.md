@@ -1,5 +1,2 @@
-﻿---
-layout: post
----
-# {{ page.title }}
+﻿# {{ page.title }}
 Hello World
