@@ -1,2 +1,0 @@
-﻿# {{ page.title }}
-Hello World

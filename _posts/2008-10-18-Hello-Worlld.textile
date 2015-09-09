@@ -1,0 +1,10 @@
+---
+layout: post
+title: Hello World!
+---
+
+h1. {{ page.title }}
+
+p(meta). 18 Oct 2008 - San Francisco
+
+Hello World
