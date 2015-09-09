@@ -102,10 +102,10 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 <p><strong><em>Run as minimal</em></strong></p>
 
 <ul>
-<li>Use the following VBScript code</li>
+Use the following VBScript code
 </ul>
 
-<pre lang="VBScipt"><code>Set WshShell = WScript.CreateObject("WScript.Shell")
+<pre lang="Visual Basic"><code>Set WshShell = WScript.CreateObject("WScript.Shell")
 FSO = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
 WshShell.Run FTP&amp;"\ftpadmingui.exe", 0
 </code></pre>
