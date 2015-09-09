@@ -106,8 +106,7 @@ Anybody can enhance or modify them, but please don't delete or modify any logo, 
 </ul>
 
 <pre lang="VBScipt"><code>Set WshShell = WScript.CreateObject("WScript.Shell")
-FSO = CreateObject("Scripting.FileSystemObject")
-FTP = FSO.GetFile(Wscript.ScriptFullName).ParentFolder.Path
+FSO = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
 WshShell.Run FTP&amp;"\ftpadmingui.exe", 0
 </code></pre>
 
