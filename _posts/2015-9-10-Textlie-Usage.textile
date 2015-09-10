@@ -8,4 +8,4 @@ p(meta). 10 Sep 2015 - Beijing, China
 
 Textile是一个人性化的Web文本生成器，以简洁的方式提供HTML标签功能
 
-"Textile":https://en.wikipedia.org/wiki/Textile_(markup_language)
+"Textile (markup language)":https://en.wikipedia.org/wiki/Textile_(markup_language)
