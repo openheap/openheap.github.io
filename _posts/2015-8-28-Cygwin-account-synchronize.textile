@@ -2,11 +2,6 @@
 layout: post
 title: Cygwin account synchronize
 ---
-
-h1. {{ page.title }}
-
-p(meta). {{ page.date | date_to_string }}
-
 mkpasswd -l -g > /etc/passwd
 mkpasswd -d -u `whoami` >> /etc/passwd
 mkgroup  -l -u > /etc/group
