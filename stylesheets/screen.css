@@ -35,10 +35,13 @@ p {
 }
 
 a {
-  color: #F43059;
+  text-decoration: none;
+  color: #f43059;
+  text-shadow: none;
 }
 
 a:hover {
+  text-decoration: underline;
   color: #F43059;
 }
 
