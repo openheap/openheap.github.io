@@ -2,10 +2,6 @@
 layout: post
 title: Textlie usage
 ---
-h1. {{ page.title }}
-
-p(meta).  {{ page.date | date_to_string }}
-
 Textile is a lightweight markup language originally developed by Dean Allen for use in the Textpattern CMS and billed as a "humane web text generator".
 
 "Textile syntax":https://en.wikipedia.org/wiki/Textile_(markup_language)
