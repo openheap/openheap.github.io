@@ -2,11 +2,6 @@
 layout: post
 title: 算法列表
 ---
-h1. {{ page.title }}
-
-p(meta). {{ page.date | date_to_string }}
-
-
 Dijkstra算法
 哈希表算法
 贪婪算法
