@@ -4,7 +4,7 @@ title: 算法列表
 ---
 h1. {{ page.title }}
 
-p(meta). 11 Mar 2015 - Beijing, China
+p(meta). {{ post.date | date_to_string }}
 
 
 Dijkstra算法
