@@ -2,58 +2,8 @@
 layout: post
 title: Textlie usage
 ---
-
 h1. {{ page.title }}
+
 p(meta). 10 Sep 2015 - Beijing, China
 
 Textile是一个人性化的Web文本生成器，以简洁的方式提供HTML标签功能
-
-notextile. 
-短语修饰符编辑
-_emphasis_
-*strong*
-__italic__**bold**??citation??
--deleted text-
-+inserted text+
-^^
-~subscript~
-%span%
-@code@
-块修饰符编辑
-hn. heading
-bq. Blockquote
-fnn. Footnote
-p. Paragraph
-bc. Block code
-pre. Pre-formatted
-# Numeric list
-* Bulleted list
-链接编辑
-"linktext":http://…
-属性编辑
-(class)
-(#id)
-{style}
-[language]
-排列编辑
-> right
-< left
-= center
-<> justify
-表格编辑
-|_. a|_. table|_. header|
-|a|table|row|
-|a|table|row|
-图像编辑
-!imageurl!
-!imageurl!:http://…
-首字母缩写编辑
-ABC(Always Be Closing)
-脚注编辑
-See foo[1].
-fn1. Foo.
-原生HTML编辑
-==no <b>textile</b>==
-notextile. no <b>textile here</b>
-扩展快编辑
-bc.. a block code section has started and continues p. a paragraph starts
