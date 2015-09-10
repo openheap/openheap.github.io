@@ -2,11 +2,6 @@
 layout: post
 title: xterm theme
 ---
-
-h1. {{ page.title }}
-
-p(meta). {{ page.date | date_to_string }}
-
 XTerm*locale: true
 XTerm*utf8Title: true
 XTerm*fontMenu*fontdefault*Label: Default
