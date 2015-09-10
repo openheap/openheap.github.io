@@ -5,7 +5,7 @@ title: MySQL Installation in Cygwin
 
 h1. {{ page.title }}
 
-p(meta). 28 Aug 2015 - Beijing, China
+p(meta). {{ page.date | date_to_string }}
 
 1. To begin MySQL setup run the following:
 mysql_install_db
