@@ -5,7 +5,7 @@ title: xterm theme
 
 h1. {{ page.title }}
 
-p(meta). 11 Aug 2015 - Beijing, China
+p(meta). {{ page.date | date_to_string }}
 
 XTerm*locale: true
 XTerm*utf8Title: true
