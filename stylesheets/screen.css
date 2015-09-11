@@ -172,7 +172,7 @@ ul.posts {
   }
 
   #post code {
-	font: 13.34px Courier;
+    font: 13.34px "DejaVu Sans Mono", "Courier New", Courier;
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
