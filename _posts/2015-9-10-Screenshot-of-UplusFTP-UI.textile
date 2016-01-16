@@ -1,5 +1,0 @@
----
-layout: post
-title: Screenshot of UplusFtp UI
----
-!/screenshot/uplusftppre1.png!
