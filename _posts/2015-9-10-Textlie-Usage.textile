@@ -1,7 +1,0 @@
----
-layout: post
-title: Textlie usage
----
-Textile is a lightweight markup language originally developed by Dean Allen for use in the Textpattern CMS and billed as a "humane web text generator".
-
-"Textile syntax":https://en.wikipedia.org/wiki/Textile_(markup_language)
